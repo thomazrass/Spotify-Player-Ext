@@ -6,10 +6,15 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+
     }
   },
-  "permissions": []
+  "permissions": ["identity"],
+  "oauth2": {
+    "client_id": "653bdaeff88a4fb9a3468455c31e6143",
+    "scopes": ["user-read-private", "user-read-email"]
+  },
+  "host_permissions": [
+    "https://accounts.spotify.com/"
+  ]
 }
